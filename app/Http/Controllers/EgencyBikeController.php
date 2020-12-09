@@ -81,6 +81,7 @@ class EgencyBikeController extends Controller
         $egency=EgencyBike::findOrFail($id);
         $egency->fill($request->all());
         $egency->egency_name=$request->egency_name;
+        $egency->status=$request->status;
         $egency->save();
         return redirect()->route('index');
 

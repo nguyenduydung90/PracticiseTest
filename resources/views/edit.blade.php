@@ -32,7 +32,7 @@
                 <div class="form-group">
                     <label for="email">Trạng thái:</label>
 
-                    <select class="form-control"  name="categories_id">
+                    <select class="form-control"  name="status">
                         <option>------Chọn trạng thái-----------</option>
 
                         <option value="Đang hoạt động">Đang hoạt động</option>
